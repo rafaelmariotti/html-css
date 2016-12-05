@@ -7,9 +7,9 @@
 
 	<body>
 
-		<h1 >Introduction</h1>
-		<hr>
-		<h3><u>HTML & CSS</u></h3>
+		<h1>Introduction</h1>
+		<br><hr><br>
+		<h3 id="html-css-content"><u>HTML & CSS</u></h3>
 		<!-- My comment -->
 		<p title="1st paragraph">My name is <b>Rafael Mariotti</b>.<br> This is my first html file.<br></p>
 		<p>Test designer <br> <small>small tag</small>  <mark>marktag</mark>  <del>or not</del>  1<sup>st</sup> position and chemestry CO<sub>2</sub> </p>
@@ -32,7 +32,7 @@
 			<li>Item list 3</li>	
 		</ol>
 
-		<hr>
+		<br><hr><br>
 
 		<p><i>This is a description</i></p>
 		<dl>
@@ -42,9 +42,9 @@
 			<dd>- Description about ITEM 2</dd>
 		</dl>
 
-		<hr>
+		<br><hr><br>
 
-		<table border="3">
+		<table id="1st-table" border="3">
 			<tr>
 				<th height="50" rowspan="6" ="2">Row group 1</th>
 				<th height="50" colspan="5">Column group 1</th>
@@ -71,7 +71,7 @@
 		
 		<br><br>
 
-		<table border="3">
+		<table id="2nd-table" border="3" cellspacing="20" >
 			<tr>
 				<th>Column 1</th>
 				<th>Column 2</th>
@@ -81,7 +81,7 @@
 				<td>row 1</td>
 				<td>row 2</td>
 				<td>
-					<table border="1">
+					<table border="1" cellpadding="20" cellspacing="20">
 						<tr>
 							<td>Subrow 1</td>
 							<td>subrow 2</td>
@@ -102,7 +102,14 @@
 			</tr>
 		</table>
 
+		<br><hr><br>
 
+		<a href="https://www.google.com" target="_self">Google website</a>
+		<br>
+		<a href="newbie_website.html" target="_blank">website presentation link</a>
+		<br>
+		<a href="#1st-table" target="_parent">Go to the 1st table example</a> | <a href="#2nd-table" target="_top"> Go to the 2nd table example</a> | <a href="#html-css-content">Go to the HTML & CSS content</a>
+	
 	</body>
 
 </html>
