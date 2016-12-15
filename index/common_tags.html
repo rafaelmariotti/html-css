@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title >Mariotti HTML</title>
+	</head>
+
+	<body>
+
+		<h1>Introduction</h1>
+		<br><hr><br>
+		<h3 id="html-css-content"><u>HTML & CSS</u></h3>
+		<!-- My comment -->
+		<p title="1st paragraph">My name is <b>Rafael Mariotti</b>.<br> This is my first html file.<br></p>
+		<p>Test designer <br> <small>small tag</small>  <mark>marktag</mark>  <del>or not</del>  1<sup>st</sup> position and chemestry CO<sub>2</sub> </p>
+		<pre>This paragraph  has   multiple     spaces</pre>
+		<p>This is an <abbr title="My abbreviation tag">abbrev.</abbr></p>
+		<p> This is an entitie&apos;s example &plus; some others &quot;examples&quot; &colon; more information at https://dev.w3.org/html5/html-author/charref</p>
+
+		<ul><p><u>Unordered list</u></p>
+			<li>Item list 1</li>
+			<li>Item list 2</li>
+				<ul type="square">
+					<li>Item list 2.1</li>
+					<li>Item list 2.2</li>
+				</ul>
+		</ul>
+
+		<ol type="I"><p><u>Ordered list</u></p>
+			<li>Item list 1</li>	
+			<li value="5">Item list 2</li>	
+			<li>Item list 3</li>	
+		</ol>
+
+		<br><hr><br>
+
+		<p><i>This is a description</i></p>
+		<dl>
+			<dt>ITEM 1</dt>
+			<dd>- Description about ITEM 1</dd>
+			<dt>ITEM 2&colon;</dt>
+			<dd>- Description about ITEM 2</dd>
+		</dl>
+
+		<br><hr><br>
+
+		<table id="1st-table" border="3">
+			<tr>
+				<th height="50" rowspan="6" ="2">Row group 1</th>
+				<th height="50" colspan="5">Column group 1</th>
+			</tr>
+			<tr>
+				<th width="100" height="50">column 1</th>
+				<th width="200">column 2</th>
+				<th width="300">column 3</th>
+			</tr>
+			<tr>
+				<td height="100">1st cell</td>
+				<td>2nd cell</td>
+			</tr>
+			<tr>
+				<td  height="150">3rd cell</td>
+				<td>4rd cell</td>
+			</tr>
+			<tr>
+				<td>5rd cell</td>
+				<td>6rd cell</td>
+				<td>7rd cell</td>
+			</tr>
+		</table>
+		
+		<br><br>
+
+		<table id="2nd-table" border="3" cellspacing="20" >
+			<tr>
+				<th>Column 1</th>
+				<th>Column 2</th>
+				<th>Column 3</th>
+			</tr>
+			<tr>
+				<td>row 1</td>
+				<td>row 2</td>
+				<td>
+					<table border="1" cellpadding="20" cellspacing="20">
+						<tr>
+							<td>Subrow 1</td>
+							<td>subrow 2</td>
+							<td>subrow 3</td>
+						</tr>
+						<tr>
+							<td>Subrow 4</td>
+							<td>subrow 5</td>
+							<td>subrow 6</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>row 3</td>
+				<td>row 4</td>
+				<td>row 5</td>
+			</tr>
+		</table>
+
+		<br><hr><br>
+
+		<a href="https://www.google.com" target="_self">Google website</a>
+		<br>
+		<a href="newbie_website.html" target="_blank">website presentation link</a>
+		<br>
+		<a href="#1st-table" target="_parent">Go to the 1st table example</a> | <a href="#2nd-table" target="_top"> Go to the 2nd table example</a> | <a href="#html-css-content">Go to the HTML & CSS content</a>
+		<br><br>
+		<iframe src="newbie_website.html" frameborder="1" width="1000"></iframe>
+		
+		<br><br>
+		
+		<p><i>Adding images</i></p>
+		<img src="../images/push-button-doest-not-exists.jpg" width="100" height="100" title="WARNING! do not push this button lolz" alt="Push button image is missing">
+		<br>
+		<p><a href="newbie_website.html"><img src="../images/push-button.jpg" width="20" height="20" ></a> Push the button to go to newbie website</p>
+		<p><a href="../images/push-button.jpg"><img src="../images/push-button.jpg" width="20" height="20"></a> Push it again to see the image</p>
+
+	</body>
+
+</html>
+
+
