@@ -23,5 +23,25 @@
 		<div class="class-example">CSS class</div>
 
 		<h1>Changing tag style</h1>
+
+		<a href="common_tags.html" id="link-tag">Link here</a>
+
+		<!--sibling selector-->
+		<div id="sibling-example1">
+			<p>Sibling example 1</p>
+		</div>
+		<p>Sibling with (~) style 1</p>
+		<p>Sibling with (~) style 2</p>
+
+		<div id="sibling-example2">
+			<p>Sibling example 2</p>
+			<u> <!--it is not a "next" sibling inside of <u> tag-->	
+				<p>This is not a sibling</p>
+			</u> 
+		</div>
+		<p>Sibling with (+) style</p>
+		
+		<p>And so go on...</p>
+		<!--sibling selector-->
 	</body>
 </html>

@@ -12,3 +12,36 @@ h1 {
 	color: green;
 	background-color: tan;
 }
+
+#link-tag:link{
+	color: green;
+	text-decoration: none;
+}
+#link-tag:visited{
+	color:red;
+}
+#link-tag:hover{
+	color: blue;
+}
+#link-tag:active{
+	color: yellow;
+}
+
+/*sibling selector*/
+
+#sibling-example1 p{
+	color: orange;
+}
+
+#sibling-example1 ~ p{
+	color: tan;
+}
+
+/*only the next sibling*/
+#sibling-example2 + p{
+	color: silver;
+}
+/*only the siblings within div tag, not recursively*/
+#sibling-example2 > p{
+	color: red;
+}
